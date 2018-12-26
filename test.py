@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 app = Flask(__name__)
 
-
+### this is from sql direcory
 @app.route("/")
 def hello():
     return "Prasad"
